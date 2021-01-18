@@ -1,0 +1,22 @@
+<table>
+    <th>Item Name</th>
+    <th>Item Price</th>
+    <th>Item Quantity</th>
+
+    {% for nam, pric, qu in team_info %}
+    <tr>
+        
+        <td>{{nam}}</td>
+        <td>{{pric}}</td>
+        <td>{{qu}}</td>
+
+
+    </tr>
+    {% endfor %}
+    <tr>
+        <td></td>
+        <td>Total Amount</td>
+        <td>{{y}}</td>
+
+    </tr>
+</table>
