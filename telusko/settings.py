@@ -26,7 +26,7 @@ SECRET_KEY = 'e*6(m(w_vj8sffmfrodqgki#5x91#_g(uo8f!16=&bu!+njru0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://cafenista.herokuapp.com/','127.0.0.1:8000']
+ALLOWED_HOSTS = ['cafenista.herokuapp.com/']
 
 
 # Application definition
